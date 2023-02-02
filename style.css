@@ -1,0 +1,59 @@
+@font-face {
+    font-family: logoFont;
+    src: url(Norse-Bold.otf);
+  }
+
+* {
+    margin: 0;
+}
+
+.grid-container {
+    display: flex;
+    height: 100vh;
+}
+
+/*PARTEA STANGA */
+
+.imagine-stanga {
+    width: 30%;
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+    float:left
+}
+
+.div-logo {
+    font-family: logoFont;
+    padding: 25px;
+    font-size: 4rem;
+    margin-top: 50%;
+    background-color: rgba(0, 0, 0, 0.508);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.copyright-bottom {
+    bottom: 0%;
+    position: fixed;
+    color: white;
+    margin: 0 auto;
+    width: 30%;
+
+}
+
+#textP {
+    text-align: center;
+}
+
+
+/*PARTEA DREAPTA */
+.sectiune-form {
+    height: 100%;
+    width: 70%;
+    float:right;
+    background-color: blue;
+}
