@@ -15,7 +15,7 @@
 /*PARTEA STANGA */
 
 .imagine-stanga {
-    width: 30%;
+    width: 35%;
     background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
     height: 100%;
     background-size: cover;
@@ -37,7 +37,7 @@
 }
 
 .copyright-bottom {
-    bottom: 0%;
+    bottom: 1.2%;
     position: fixed;
     color: white;
     margin: 0 auto;
@@ -53,7 +53,75 @@
 /*PARTEA DREAPTA */
 .sectiune-form {
     height: 100%;
-    width: 70%;
+    width: 65%;
     float:right;
-    background-color: blue;
+    background-color: #FAFAFA;
+}
+
+.sectiune-form .sectiune-text {
+    margin: 4rem 2rem;
+    margin-bottom: 2rem!important;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.sectiune-form .sectiune-text p {
+    margin-bottom: 3rem;
+    
+}
+
+.formRows {
+    display: flex;
+}
+
+.formColumns {
+    flex: 50%;
+}
+
+.form {
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.form h2 {
+    margin-bottom: 1.5rem;
+}
+.form {
+    font-weight: 500;
+}
+
+.form input {
+    border-color: #EAECEF;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    height: 1.5rem;
+    width: 15rem;
+}
+
+#createAcc {
+    background-color: #596D48;
+    margin: 2rem;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#loginOption {
+    margin: 0.5rem 2rem;
+    font-weight: 600;
+    font-size: 1.4rem
+}
+
+#loginOption a {
+
+    text-decoration: none;
+    color: #596D48;
 }
